@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Colour in CSS</h1>
+<!--Syntax rgb (red, green, blue)-->
+    <h2>RGB</h2>
+
+    <h3 style="background-color: rgb(255,0,0);">Red</h3>
+    <h3 style="background-color: rgb(0,255,0);">Green</h3>
+    <h3 style="background-color: rgb(0,0,255);">Blue</h3>
+    <h3 style="background-color: rgb(0,0,0);">White</h3>
+    <h3 style="background-color: rgb(255,255,255);">Black</h3>
+
+
+
+
+     <hr>
+    <h2>HSL - Hue Saturation Light</h2>
+    <!--syntax
+    hue - color, value (0-360)
+    saturation -determine color range from gray to actual color value(0%-100%)
+    lightness - determines color range from darkness to white color,(0%-100%)
+    color: hsl(hue, saturation%, lightness%)-->
+
+    <h3 style="background-color: hsl(0, 100%, 50%);">styleRed</h3>
+    <h3 style="background-color: hsl(120, 100%, 50%);">Green</h3>
+    <h3 style="background-color: hsl(240, 100%, 50%);">Blue</h3>
+    <h3 style="background-color: hsl(0, 0%, 50%);">saturation 0%</h3>
+    <h3 style="background-color: hsl(0, 50%, 50%);">Saturation 50%</h3>
+    <h3 style="background-color: hsl(0, 100%, 0%);">light 0%</h3>
+    <h3 style="background-color: hsl(0, 100%, 100%);">stylelight 100%</h3>
+<hr>
+    <h2>HEX</h2>
+    <!--syntax #RRGGBB value variables between 0-f
+    0- lowest value for that colour
+    f- highest value for that colour
+    -->
+    <h3 style="background-color: #FF0000;">Red</h3>
+    <h3 style="background-color: #00FF00;">Green</h3>
+    <h3 style="background-color: #0000FF;">Blue</h3>
+    <h3 style="background-color: #000000;">Black</h3>
+    <h3 style="background-color: #FFFFFF;">White</h3>
+    <!-- In RGBA
+     A- stands for alpha, it determines the transparency of the color. the value of the varies from 0-1.
+     0- completely transparent
+     1- color
+     syntax:
+     color: rgba(red, green, blue, alpha) -->
+     <h3 style="background-color: rgba(255, 0, 0, 1);">RGBA- 100%</h3>
+     <h3 style="background-color: rgba(0, 255, 0, 0.75);">RGBA- 75%</h3>
+     <h3 style="background-color: rgba(0, 0, 255, 0.50);">RGBA- 50%</h3>
+     <h3 style="background-color: rgba(0, 0, 0, 0.25);">RGBA- 25%</h3>
+     <h3 style="background-color: rgba(255, 255, 255, 0);">RGBA- 0%</h3>
+</body>
+</html>
