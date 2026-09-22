@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Position</h1>
+
+    <!--
+    position in css has position offset to move the element.
+    top, right, bottom and left are position offset. 
+    
+    static: by default all item are in static position. In static position we cannot position offsets.
+    
+    absolute: position relative to ancestor position
+    
+    relative: position relative to original position
+    
+    fixed: fixed position for an object
+    
+    sticky: movable until it teaches fixed position -->
+
+    <h2>static</h2>
+    <div class="box"></div>
+
+    <h2>sticky</h2>
+    <div class="box" style="position: sticky; top:50%;">Sticky Position</div>
+
+    <!--
+    z-index: keeps the item in the forward and backward layer.
+    positive z-index value keeps the item in the forward layer.
+    negative z-index value keep the item in the backward layer.
+    -->
+
+    <h2>fixed</h2>
+    <div class="box" style="position: fixed; left:0px; top:0px; background-color: aqua; z-index: -1;">Fixed Position</div>
+
+    <h2>relative</h2>
+    <div class="box" style="position: relative; left:400px;"></div>
+
+    <h2>absolute</h2>
+    <div class="box" style="position: absolute; right:0; top:0;"></div>
+</body>
+</html>
