@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        padding: 0;
+        margin: 0;
+       }
+
+        /* Navigation Menu */
+
+        /* navbar */
+        .navbar{
+            width: 100%;
+            height: 10vh;
+            background-color: green;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        /* navlink*/
+
+        .navlinks{
+        display: flex;
+        gap: 50px;
+        list-style-type: none;
+        }
+        /* a*/
+        a{
+            color: white;
+            front-size: 18px;
+            text-decoration: none;
+        }
+        /* logo */
+        .logo{
+            font-size: 40px;  
+            color: white;
+        }
+        /* search and button */
+        .searchButton{
+            display: flex;
+            gap: 10px;
+        }
+        .searchButton input{
+            padding: 4px 8px;
+        }
+        .login{
+            padding: 4px 4px;
+            
+        }
+
+        /* links*/
+        .navlinks li:hover{
+        text-decoration: underline 1px solid white;
+        fornt-size: 900;
+
+        }
+
+        /*active link clicked*/
+        .navlinks li.active{
+            text-decoration: underline 1px solid navy;
+            font-size: 900;
+        }
+
+        /*visible link*/
+        .navlinks li:visited{
+            text-decoration: underline 1px solid white;
+            font-size: 900;
+            background-color: navy;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Navbar-->
+
+    <nav class="navbar">
+        <!--LOGO-->
+        <div class="logo">LOGO</div>
+
+         <!-- Links -->
+        <ul class="navlinks">
+            <li><a href="">Home</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+          <!-- search and button -->
+
+        <div class="searchButton">
+            <input type="search" name="" id="" placeholder="search">
+            <button class="Login"> Login</button>
+        </div>
+    </nav>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="gallery-items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQelJ9u4DRShbzI-Rw4q1mEhFTk6ZqsBP9wfDC455VxJQ&s=10F"
+                alt="">
+            <div class="desc">Pashupatinath Temple</div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="gallery-items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5rkVglmHv-bVjGYcL5ltDSomqhNCcfr089Aodm9NiWA&s=10"
+                alt="">
+            <div class="desc">Swoyambhunath Temple</div>
+        </div>
+        <!-- item 3 -->
+        <div class="gallery-items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnu_76vQyBe-XQ7lTrR0Bd9CL0Kjr1MIFbn6oMfm3LA&s=10F" alt="">
+            <div class="desc">Balen Shah</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
